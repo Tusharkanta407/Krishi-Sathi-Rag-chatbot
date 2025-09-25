@@ -1,0 +1,32 @@
+{
+  "name": "kerala-agriculture-rag-chatbot",
+  "version": "1.0.0",
+  "description": "Kerala Agriculture RAG Chatbot API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "index": "node index.js"
+  },
+  "keywords": ["rag", "chatbot", "agriculture", "kerala", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.19.0",
+    "@langchain/community": "^0.3.55",
+    "@langchain/core": "^0.3.75",
+    "@langchain/google-genai": "^0.2.17",
+    "@langchain/pinecone": "^0.2.0",
+    "@langchain/textsplitters": "^0.1.0",
+    "@pinecone-database/pinecone": "^5.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "pdf-parse": "^1.1.1",
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
